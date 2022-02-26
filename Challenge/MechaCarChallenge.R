@@ -1,7 +1,51 @@
+t.test(sample_table$PSI,mu=mean(lot3$PSI))
+lm(qsec~vehicle_length,vehicle_weight,spoiler_angle,ground_clearance,AWD,mpg)
+lm(qsec~vehicle_length,vehicle_weight,spoiler_angle,ground_clearance,AWD,mpg,mecha_table)
 library(dplyr)
-
-mecha_table <- read.csv(file="MechaCar_mpg.csv",check.names=F,stringsAsFactors = F)
-View(mecha_table)
-
-library(dplyr)
-
+lm(qsec~vehicle_length,vehicle_weight,spoiler_angle,ground_clearance,AWD,mpg,mecha_table)
+ggplot+geom_smooth(method=lm,se=FALSE,fullrange=TRUE,aes(color=Tree))
+ggplot <- ggplot(mecha_table,aes(x=mpg, y=vehicle_length))+ geom_point() + theme_classic()
+ggplot
+ggplt+geom_smooth(method=lm,se=FALSE,fullrange=TRUE)
+ggplot+geom_smooth(method=lm,se=FALSE,fullrange=TRUE)
+ggplot+geom_smooth(method=lm,se=FALSE, fullrange=TRUE, aes(color=Tree))
+ggplot2 <- ggplot(mecha_table,aes(x=mpg, y=ground_clearance))+ geom_point() + theme_classic()
+ggplot
+ggplt+geom_smooth(method=lm,se=FALSE,fullrange=TRUE)
+ggplot2 <- ggplot(mecha_table,aes(x=mpg, y=ground_clearance))+ geom_point() + theme_classic()
+ggplot2
+ggplot2+geom_smooth(method=lm,se=FALSE,fullrange=TRUE)
+ggplot <- ggplot(mecha_table,aes(x=mpg, y=vehicle_length))+ geom_point() + theme_classic()
+ggplot
+ggplot+geom_smooth(method=lm,se=FALSE,fullrange=TRUE)
+ggplot(mecha_table) + aes(x=vehicle_length, y=mpg, color=ground_clearance) + geom_point() + labs(y="Vehicle Length", x="MPG", color="Ground Clearance") + theme_minimal()
+ggplot(mecha_table) + aes(x=vehicle_length, y=ground_clearance, color=mpg) + geom_point() + labs(y="Vehicle Length", x="Ground Clearance", color="MPG") + theme_minimal()
+total_summary <- read.csv(file="Suspension_Coil.csv", check.names=,stringsAsFactors = )
+View(total_summary)
+summarize_psi <- total_summary %>% group_by(Manufacturing_Lot) %>% summarize(PSI=mean(odometer), .groups = 'keep') #create summary table
+summarize_psi <- total_summary %>% group_by(Manufacturing_Lot) %>% summarize(PSI=mean(PSI), .groups = 'keep') #create summary table
+summarize_psi <- total_summary %>% group_by(Manufacturing_Lot) %>% summarize(PSI=mean), .groups = 'keep') #create summary table
+summarize_psi <- total_summary %>% group_by(Manufacturing_Lot) %>% summarize(PSI=mean)
+summarize_psi <- total_summary %>% group_by(Manufacturing_Lot) %>% summarize(PSI=mean(PSI), .groups = 'keep') #create summary table
+View(summarize_psi)
+summarize_psi <- total_summary %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), .groups = 'keep') #create summary table
+summary(summarize_pi)
+View(total_summary)
+library(tidyverse)
+ls()
+rm(total_summary)
+rm (summarize_psi)
+susp_table <- read.csv(file="Suspension_Coil.csv", check.names=F, stringsAsFactors = F)
+susp_table(summarize)
+total_summary <- susp_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))))
+lot_summary <- susp_table %>% group_by(Manufacturing_Lot) summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+View(lot_summary)
+View(total_summary)
+View(susp_table)
+ggplot(lot_summary, aes(x=Mean)) + geom_density()
+shapiro.test(lot_summary$Mean)
+t.test(susp_table$PSI,mu=1500)
+t.test(sample_table$PSI,mu=mean(susp_table$PSI))
+t.test(sample_table$PSI,mu=mean(lot1$PSI))
+t.test(sample_table$PSI,mu=mean(lot2$PSI))
+t.test(sample_table$PSI,mu=mean(lot3$PSI))

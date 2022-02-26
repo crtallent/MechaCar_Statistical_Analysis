@@ -16,4 +16,9 @@ In this case, the slope of our linear model is not considered to be zero, as we 
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/plot.png" alt="Multiple Variable Regression Plot" style="height: 300px; width:300px;"/> 
 <p/>  
   
+### Summary Statistics on Suspension Coils
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 PSI (pounds per square inch).  For this analysis,
+we calculated the mean, median, variance, and standard deviations of the suspension coil's PSI column:
+
+<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/total_summary.png"/>

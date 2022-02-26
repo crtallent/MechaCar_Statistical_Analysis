@@ -22,3 +22,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 we calculated the mean, median, variance, and standard deviations of the suspension coil's PSI column:
 
 <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/total_summary.png"/>
+
+As we can see from the above, the average (mean) PSI for all suspension coils in all three lots is 1498.78, while the median PSI value is 1500. We can also see that the variance of the coils is 62.29, which is below the 100 PSI mark as required.  However, when we drill down to the lot level, we see that Lot 3's PSI variance is 170.29, which exceeds the 100 PSI threshold.  While statistically the suspension coils meet this requirement, there appear to be vehicles in Lot 3 in which the requirement is not met.
+
+<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot_summary.png"/>
+

@@ -27,3 +27,11 @@ As we can see from the above, the average (mean) PSI for all suspension coils in
 
 <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot_summary.png"/>
 
+```
+
+> lot1 <-subset(susp_table, Manufacturing_Lot=="Lot1")
+> lot2 <-subset(susp_table, Manufacturing_Lot=="Lot2")
+> lot3 <-subset(susp_table, Manufacturing_Lot=="Lot3")
+> t.test(lot1$PSI,mu=1500)
+
+```

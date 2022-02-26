@@ -8,5 +8,5 @@ In our [multiple linear regression results](https://github.com/crtallent/MechaCa
 
 In this case, the slope of our linear model is not considered to be zero, as we can see a significant linear relationship between MPG and our vehicle_length and ground_clearance variables.  Additionally, our p-value (5.35e-11) is smaller than 0.05, so we have sufficient evidence to reject our null hypothesis that there is no relationship between MPG and our other variables.  However, this linear model may not effectively predict MPG of MechaCar prototypes effectively due to the lack of significant variables in our dataset.  In other words, there is a likelihood that we may be seeing overfitting, and our model may not work as well in the future to predict data.  It would be advised to add other variables into our linear regression model to gain a better understanding of everything that is impacting MPG for future predictions.
 
-<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/length.png" alt="Vehicle Length Linear Regression Plot"/>
+<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/length.png" alt="Vehicle Length Linear Regression Plot" style="height: 100px; width:100px;"/>
 

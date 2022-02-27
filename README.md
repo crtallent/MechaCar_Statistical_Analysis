@@ -58,7 +58,7 @@ Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) 
 ```
 
 <p float="left">
-  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot1.png" alt="Lot 1" style="height: 500px; width:500px;"/>
- <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot2.png" alt="Lot 2" style="height: 500px; width:500px;"/> 
- <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3.png" alt="Lot 3" style="height: 500px; width:500px;"/> 
+  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot1.png" alt="Lot 1" style="height: 400px; width:400px;"/>
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot2.png" alt="Lot 2" style="height: 400px; width:400px;"/> 
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3.png" alt="Lot 3" style="height: 400px; width:400px;"/> 
 <p/> 

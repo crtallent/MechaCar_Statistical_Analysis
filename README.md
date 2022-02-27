@@ -10,8 +10,9 @@ For this project, we are tasked with performing the following objectives:
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 ## Resources
-Sofware: RStudio 2022.02.0+443
-Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
+* Sofware: RStudio 2022.02.0+443
+
+* Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
 
 
 ### Linear Regression to Predict MPG

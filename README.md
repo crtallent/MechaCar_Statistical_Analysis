@@ -37,7 +37,16 @@ In order to determine if the PSI results varied statistically throughout MechaCa
 
 In order to complete our t-tests, we first determined our hypotheses:
 
-1. 
+1. Null hypothesis - there is no statistical difference between the observed sample mean and its presumed population mean
+2. Alternative hypothesis - there is a statistical difference between the observed sample mean and its presumed population mean
+
+Then, we created a sample of 50 datasets from our suspension coils dataset (susp_table), and performed a t-test on the results:
+
+<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/all_t_test.png"/>
+
+As we can see from the p-value of 0.6997 (over 0.05), we fail to reject our Null hypothesis that the sample results deviate statistically from our population dataset.
+
+Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) using the subset() function and test our hypotheses again in three t-tests:
 
 ```
 
@@ -47,3 +56,9 @@ In order to complete our t-tests, we first determined our hypotheses:
 > t.test(lot1$PSI,mu=1500)
 
 ```
+
+<p float="left">
+  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot1.png" alt="Lot 1" style="height: 300px; width:300px;"/>
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot2.png" alt="Lot 2" style="height: 300px; width:300px;"/> 
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3.png" alt="Multiple Variable Regression Plot" style="height: 300px; width:300px;"/> 
+<p/> 

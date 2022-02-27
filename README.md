@@ -27,6 +27,10 @@ As we can see from the above, the average (mean) PSI for all suspension coils in
 
 <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot_summary.png"/>
 
+#### Boxplot Showing Outliers in Lot 3
+
+<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/boxplot.png"/>
+
 ### T-Tests on Suspension Coils
 
 In order to determine if the PSI results varied statistically throughout MechaCar's production lots, a Shapiro-Wilk normality test and a distribution plot were completed.  First, a Shapiro-Wilk normality test was completed to determine whether the results followed a normal distribution.  As we can see in the below image, the p-value from the Shapiro-Wilk test was above 0.05, and the distribution plot follows a normal bell-curve, so we determine that the results are normally distributed:

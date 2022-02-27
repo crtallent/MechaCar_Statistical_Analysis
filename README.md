@@ -62,3 +62,7 @@ Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) 
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot2.png" alt="Lot 2" style="height: 400px; width:400px;"/> 
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3.png" alt="Lot 3" style="height: 400px; width:400px;"/> 
 <p/> 
+
+As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis.  
+
+

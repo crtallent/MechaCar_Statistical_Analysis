@@ -69,4 +69,8 @@ Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) 
 
 As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis.  
 
+### Study Design: MechaCar vs Competition
+
+In order to quantify how MechaCar performs against the competition, an additional study could be completed.  This would need to take into consideration the factors that consumers look at prior to buying a car, such as the cost of the vehicle, gas mileage, horse power, and safety rating.  The null hypothesis would be that MechaCars vehicles do not differ statistically from their competitors' products.  The alternate hypothesis would be that MechaCars vehicles do differ statistically from their competitor's products.  A chi-squared test could be completed to determine if any of the previously discussed factors increase the likelihood of consumers purchasing one vehicle over another (difference in categorical frequencies between groups).  In order to complete the study, data from MechaCar's consumers would need to be gathered including number of sales, cost of vehicles, gas mileage, horse power, and safety ratings.
+
 

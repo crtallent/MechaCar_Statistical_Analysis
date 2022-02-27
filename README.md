@@ -82,7 +82,7 @@ Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) 
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3.png" alt="Lot 3" style="height: 400px; width:400px;"/> 
 <p/> 
 
-As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis.  
+As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis.  However, based on the outliers seen in our bell curve and our boxplot, it would be prudent for MechaCar to look into these discrepencies to ensure all vehicles are meeting the PSI requirements.
 
 ### Study Design: MechaCar vs Competition
 

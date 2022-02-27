@@ -49,3 +49,7 @@ t.test(sample_table$PSI,mu=mean(susp_table$PSI))
 t.test(sample_table$PSI,mu=mean(lot1$PSI))
 t.test(sample_table$PSI,mu=mean(lot2$PSI))
 t.test(sample_table$PSI,mu=mean(lot3$PSI))
+ggplot(susp_table, aes(x=PSI)) + geom_density()
+
+plt <- ggplot(susp_table, aes(x=Manufacturing_Lot,y=PSI, color=PSI))
+plt + geom_boxplot() + theme(axis.text.x=element_text(angle=45,hjust=1)) + geom_point()

@@ -29,6 +29,10 @@ In this case, the slope of our linear model is not considered to be zero, as we 
   <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/length.png" alt="Vehicle Length Linear Regression Plot" style="height: 300px; width:300px;"/>
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/ground_clearance.png" alt="Ground Clearance Linear Regression Plot" style="height: 300px; width:300px;"/> 
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/plot.png" alt="Multiple Variable Regression Plot" style="height: 300px; width:300px;"/> 
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/leverage.png" style="height: 300px; width:300px;"/>  
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/Scale.png" style="height: 300px; width:300px;"/>  
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/Quantiles.png" style="height: 300px; width:300px;"/>  
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/Fitted.png" style="height: 300px; width:300px;"/>    
 <p/>  
   
 ### Summary Statistics on Suspension Coils

@@ -63,9 +63,9 @@ In order to complete our t-tests, we first determined our hypotheses:
 1. Null hypothesis - there is no statistical difference between the observed sample mean and its presumed population mean
 2. Alternative hypothesis - there is a statistical difference between the observed sample mean and its presumed population mean
 
-Then, we created a sample of 50 datasets from our suspension coils dataset (susp_table), and performed a t-test on the results:
+Then, we created a sample of 50 datasets from our suspension coils dataset (susp_table), and performed a t-test on the results, to get a mean PSI of 1497.22:
 
-<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/all_t_test.png"/>
+<img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/sample_t.png"/>
 
 As we can see from the p-value of 0.6997 (over 0.05), we fail to reject our Null hypothesis that the sample results deviate statistically from our population dataset.
 
@@ -76,14 +76,14 @@ Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) 
 > lot1 <-subset(susp_table, Manufacturing_Lot=="Lot1")
 > lot2 <-subset(susp_table, Manufacturing_Lot=="Lot2")
 > lot3 <-subset(susp_table, Manufacturing_Lot=="Lot3")
-> t.test(lot1$PSI,mu=1500)
+> t.test(lot1$PSI,mu=1497.22)
 
 ```
 
 <p float="left">
-  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot1.png" alt="Lot 1" style="height: 400px; width:400px;"/>
- <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot2.png" alt="Lot 2" style="height: 400px; width:400px;"/> 
- <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3.png" alt="Lot 3" style="height: 400px; width:400px;"/> 
+  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot1_t.png" alt="Lot 1" style="height: 400px; width:400px;"/>
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot2_t.png" alt="Lot 2" style="height: 400px; width:400px;"/> 
+ <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3_t.png" alt="Lot 3" style="height: 400px; width:400px;"/> 
 <p/> 
 
 As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis.  However, based on the outliers seen in our bell curve and our boxplot, it would be prudent for MechaCar to look into these discrepencies to ensure all vehicles are meeting the PSI requirements.

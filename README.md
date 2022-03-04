@@ -67,7 +67,7 @@ Then, we created a sample of 50 datasets from our suspension coils dataset (susp
 
 <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/sample_t.png"/>
 
-As we can see from the p-value of 0.2528 (over 0.05), we fail to reject our Null hypothesis that the sample results deviate statistically from our population dataset.
+As we can see from the p-value of 0.6526 (over 0.05), we fail to reject our Null hypothesis that the sample results deviate statistically from our population dataset.
 
 Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) using the subset() function and test our hypotheses again in three t-tests:
 
@@ -86,7 +86,7 @@ Next, we separate our dataset into three sets (Manufacturing Lots: 1, 2, and 3) 
  <img src="https://github.com/crtallent/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/lot3_t.png" alt="Lot 3" style="height: 400px; width:400px;"/> 
 <p/> 
 
-As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis for Lot 3.  However, for lots 1 and 2, we see that our p-values are very close to zero (less than 0.05), so we reject our Null hypothesis.  In other words, the values from Lots 1 and 2 do vary statistically from our sample data.  Based on our T-Test results and the outliers seen in our bell curve and our boxplot, it would be prudent for MechaCar to look into these discrepencies to ensure all vehicles are meeting the PSI requirements.
+As we can see from our three additional t-tests by lot, we again fail to reject our Null hypothesis for Lots 1 and 2.  However, for lot 3, we see that our p-value is very close to zero (less than 0.05), so we reject our Null hypothesis.  In other words, the value from Lot 3 does vary statistically from our sample data.  Based on our T-Test results and the outliers seen in our bell curve and our boxplot, it would be prudent for MechaCar to look into these discrepencies to ensure all vehicles are meeting the PSI requirements.
 
 ### Study Design: MechaCar vs Competition
 
